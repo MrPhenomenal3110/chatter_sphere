@@ -1,0 +1,28 @@
+{
+  "name": "chatter_sphere",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/MrPhenomenal3110/chatter_sphere.git"
+  },
+  "author": "Prem Shah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrPhenomenal3110/chatter_sphere/issues"
+  },
+  "homepage": "https://github.com/MrPhenomenal3110/chatter_sphere#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  }
+}
